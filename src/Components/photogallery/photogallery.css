@@ -1,0 +1,25 @@
+.photogallery {
+  width: 100%;
+  padding: 5rem;
+}
+.photogallery .title {
+  border: 10px;
+  margin: 30px;
+  text-align: center;
+  color: rgb(14, 50, 161);
+}
+.photogallery .galleryimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+.photogallery .galleryimg .column {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+.photogallery .galleryimg .imgs {
+  height: 200px;
+  width: 100%;
+}/*# sourceMappingURL=photogallery.css.map */

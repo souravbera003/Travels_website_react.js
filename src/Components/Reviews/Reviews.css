@@ -1,0 +1,33 @@
+.about_container {
+  display: grid;
+  gap: 2rem;
+  text-align: center;
+}
+
+.about_img img {
+  max-width: 400px;
+  margin-inline: auto;
+  border-radius: 5px;
+}
+
+.about_content h5 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: black;
+}
+
+.about_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.about_container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: left;
+  padding: 2rem;
+  padding-bottom: 5rem;
+}/*# sourceMappingURL=Reviews.css.map */
